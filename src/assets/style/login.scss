@@ -1,0 +1,79 @@
+.background {
+    height: 100vh;
+    width: 100vw;
+    background-image: linear-gradient(to right, #fbc2eb, #a6c1ee);
+}
+
+.login-wrapper {
+    background-color: #fff;
+    height: 50vh;
+    width: 18vw;
+    
+    border-radius: 15px;
+    padding: 0 50px;
+
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.login-header {
+    text-align: center;
+    width: 100%;
+}
+
+.header-text {
+    font-family: "Microsoft YaHei";
+    font-size: 36px;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    
+}
+
+.input-item {
+    display: block;
+    width: 100%;
+    margin-bottom: 20px;
+    border: 0;
+    padding: 10px;
+    border-bottom: 1px solid rgb(128, 125, 125);
+    font-size: 15px;
+    outline: none;
+}
+
+.input-item:placeholder {
+    text-transform: uppercase;
+}
+
+.button {
+    text-align: center;
+    padding: 10px;
+    width: 100%;
+    margin-top: 40px;
+    background-image: linear-gradient(to right, #a6c1ee, #fbc2eb);
+    color: #fff;
+}
+
+.login-footer {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.footer-text {
+    font-family: "Microsoft YaHei";
+    font-size: 16px;
+    color: rgb(88, 88, 88);
+    font-weight: bold;
+    text-align: center;
+}
+
+.footer-text-light {
+    font-family: "Microsoft YaHei";
+    font-size: 16px;
+    color: #abc1ee;
+    font-weight: bold;
+    text-align: center;
+    text-decoration-line: none;
+}
